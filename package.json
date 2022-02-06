@@ -1,0 +1,37 @@
+{
+  "name": "Projeto_13_MyWallet_Back",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damondias/MyWallet-BackEnd-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/damondias/MyWallet-BackEnd-/issues"
+  },
+  "homepage": "https://github.com/damondias/MyWallet-BackEnd-#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.7",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "joi": "^17.6.0",
+    "mongodb": "^4.3.1",
+    "react-router-dom": "^6.2.1",
+    "string-strip-html": "^9.1.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
