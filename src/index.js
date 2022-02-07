@@ -8,4 +8,6 @@ app.use(express.json())
 app.use(cors());
 app.use(router)
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT, ()=> {
+    console.log(`Rodando API MyWallet em http://localhost:${process.env.PORT}`);
+});
